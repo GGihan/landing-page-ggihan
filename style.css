@@ -14,15 +14,25 @@ body {
 }
 
 .header {
+    align-items: center;
     justify-content: space-between;
+    padding: 16px 128px;
+    color: white;
 }
 
 .title {
     font-weight: bold;
+    display: flex;
+}
+
+.header .logo {
+    display: flex;
+    margin-right: 16px;
 }
 
 .header .title {
     font-size: 48px;
+    display: flex;
     margin-right: auto;
 }
 
@@ -30,13 +40,21 @@ body {
     font-size: 24px;
     display: flex;
     list-style: none;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 li a {
     text-decoration: none;
+    color: white;
 }
 
-.information,
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
 .quote {
     display: flex;
     flex-direction: column;
