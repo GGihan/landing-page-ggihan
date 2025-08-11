@@ -105,16 +105,6 @@ li a {
     display: flex;
 }
 
-.quote {
-    display: flex;
-    flex-direction: column;
-    background-color: #E7E5EB;
-}
-
-.sign-up {
-    display: flex;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -136,6 +126,7 @@ li a {
     flex: 0 0 300px;
     padding: 0 8px;
     gap: 8px;
+    margin-top: 8px;
 }
 
 .fish img {
@@ -148,4 +139,39 @@ li a {
 
 .fish .fish-two img {
     height: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E7E5EB;
+    align-items: center;
+    padding: 48px;
+    gap: 8px;
+}
+
+.quote .text {
+    font-size: 24px;
+    font-style: italic;
+    max-width: 600px;
+}
+
+.quote .author {
+    margin-left: 400px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.quote button {
+    margin-left: 500px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 18px;
+    font-size: 18px;
+    border-radius: 8px;
+    border-color: #1F2937;
+}
+
+.sign-up {
+    display: flex;
 }
