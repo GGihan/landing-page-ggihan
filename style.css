@@ -6,6 +6,11 @@ body {
     flex-direction: column;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
 .header,
 .hero,
 .footer {
@@ -90,13 +95,14 @@ li a {
 .information {
     display: flex;
     flex-direction: column;
+    padding: 48px;
+    gap: 16px;
 }
 
 .information .title {
     font-size: 36px;
     justify-content: center;
     display: flex;
-    padding: 48px;
 }
 
 .quote {
@@ -118,6 +124,7 @@ li a {
     display: flex;
     padding: 16px 80px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .fish-one,
